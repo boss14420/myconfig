@@ -1,0 +1,10 @@
+set $COLOR_REGVAL = $WHITE
+set $SHOW_CONTEXT = 0
+set $COLOUREDPROMPT = 1
+
+python from voidwalker.voidwalker import *
+#set voidwalker-theme zenburn
+
+define hook-stop
+    voidwalker hook-stop
+end

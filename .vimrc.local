@@ -1,1 +1,232 @@
-../.vimrc.local
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+" Only define it when not defined already.
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+		  \ | wincmd p | diffthis
+endif
+
+" MiniBufExplorer
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
+map <C-Tab> :bn<CR>
+map <C-S-Tab> :bp<CR>
+
+" TagList
+let Tlist_Ctags_Cmd='/usr/bin/ctags'
+map T :TaskList<CR>
+map P :TlistToggle<CR>
+
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+set expandtab
+set textwidth=79
+set tabstop=8
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+filetype indent on
+
+set relativenumber
+autocmd FocusLost * :set norelativenumber
+autocmd FocusGained * :set relativenumber
+autocmd InsertEnter * :set norelativenumber
+autocmd InsertLeave * :set relativenumber
+
+" disable arrow key
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+"
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+let g:tex_flavor='latex'
+
+" Clang_complete
+let g:clang_complete_loaded=1
+let g:clang_complete_auto=1
+let g:clang_complete_copen=1
+let g:clang_user_options=' -std=c++11 || exit 0'
+let g:clang_use_library = 1
+"let g:clang_snippets=1
+set completeopt=menu,longest
+"let g:SuperTabDefaultCompletionType = "context"
+nmap <silent> <F2> :let g:clang_complete_auto=1-g:clang_complete_auto<CR>
+imap <silent> <F2> <ESC>:let g:clang_complete_auto=1-g:clang_complete_auto<CR>a
+"map <F2> :echo 'Current time is ' . strftime('%c')<CR>
+"map! <F3> a<C-R>=strftime('%c')<CR><Esc>
+
+" NERDTree
+map <F2> :NERDTreeToggle<CR>
+
+" auto saving folds
+au BufWinLeave * mkview
+au BufWinEnter *.* silent loadview
+
+let g:jedi#force_py_version = 3
+
+" FuzzyFinder
+let mapleader=","
+map <leader>f :FufFileWithCurrentBufferDir **/<C-M>
+map <leader>b :FufBuffer<C-M>
+
+" Vim Pathogen
+"call pathogen#infect('/usr/share/vim/vimfiles/bundle/{}')
+"call pathogen#infect($HOME.'/bundle/{}')
+
+" c-support
+"let g:C_Styles = { '*.c,*.h' : 'C', '*.cc,*.cpp,*.hh,*.hpp' : 'CPP' }
+let g:C_CCompiler = 'clang'
+let g:C_CplusCompiler = 'clang++'
+let g:C_CFlags = '-Wall -g -O0 -c -std=c99 -pedantic'
+let g:C_LFlags = '-Wall -g -O0 -std=c99 -pedantic'
+let g:C_CplusCFlags = '-Wall -g -O0 -c -std=c++11 -pedantic -stdlib=libc++'
+let g:C_CplusLFlags = '-Wall -g -O0 -std=c++11 -pedantic -stdlib=libc++ -lc++abi'
+
+autocmd BufRead,BufNewFile  *.cu set filetype=cpp
+let g:C_SourceCodeExtensions  = 'cu c cc cp cxx cpp CPP c++ C i ii'
+"let g:C_CodeSnippets = $HOME.'.vim/c-support/codesnippets/'
+
+" ctags
+set tags+=./tags;/
+set tags+=~boss14420/.vim/tags/matlab
+
+" color scheme
+"colorscheme bandit
+if has("gui_running")
+"    colorscheme cobalt
+    set guifont="Courier New:h12"
+"else
+"    colorscheme desert
+endif
+
+" clang format
+map <C-I> :pyf /home/boss14420/.scripts/clang-format.py<CR>
+imap <C-I> <ESC>:pyf /home/boss14420/.scripts/clang-format.py<CR>i
+
+" latex suite
+"set grepprg=grep\ -nH\ $*
+"let g:tex_flavor = "luatex"
+
+" pep8
+" let g:pep8_map='<F5>'
+
+" flake8
+""runtime! python_flake8.vim
+""autocmd BufWritePost *.py call Flake8()
+
+" java complete
+""if has("autocmd")
+""    autocmd FileType java setlocal omnifunc=javacomplete#Complete
+""endif
+
+" incrementation
+
+" Add argument (can be negative, default 1) to global variable i
+" Return value of i before the change
+"function Inc(...)
+"    let result = g:i
+"    let g:i += a:0 > 0 ? a:1 + 1
+"    return result
+"endfunction
+
+" increment selected number
+function! Incr()
+    let a = line('.') - line("'<")
+    let c = virtcol("'<")
+    if a > 0
+        execute 'normal! '.c.'|'.a."\<C-a>"
+    endif
+    normal `<
+endfunction
+vnoremap <C-a> :call Incr()<CR>
+
+" spf13
+"colorscheme ir_black
+
+let g:solarized_termcolors=256
+colorscheme solarized
+set shell=/bin/bash
+
+set nospell
+""let g:spf13_leader='\'
+"let g:spf13_use_powerline=1
+
+let g:neosnippet#disable_runtime_snippets = { 'c' : 1, 'cpp' : 1, 'C' : 1, 'CPP' : 1, 'cc' : 1 }
+
+"" key conflict
+let mapleader=","
+"unmap <silent> <Leader>is
+"nmap <LocalLeader>is :IHS<CR>:A<CR>
+unmap <silent> <LocalLeader>sc
+"nmap <silent> <LocalLeader>sc   :SessionClose<CR>
+unmap <silent> <LocalLeader>ss
+"nmap <silent> <LocalLeader>ss   :SessionSave<CR>
+unmap <silent> <LocalLeader>sl
+
+" lldb
+let g:lldb_map_Lstep = "<F7>"
+let g:lldb_map_Lnext = "<F8>"
+let g:lldb_map_Lbreakpoint = "<C-F10>"
+"let g:lldb_map_Lrun = "<C-F5>"
+"let g:lldb_map_Ltarget = "<C-F6>"
+nmap <C-F6> :Ltarget 
+nmap <C-F5> :Lrun 
+
+" NERDTree"
+let NERDTreeQuitOnOpen = 0
+
+"
+" high cpu load
+UnBundle 'scrooloose/syntastic'
+""setlocal backupcopy=yes
+autocmd BufEnter * setlocal backupcopy=yes
+let g:autoclose_on=0
+let g:autoclose_vim_commentmode=0
+
+let g:bufferline_echo = 0
+
+" You complete me
+noremap <F5> :YcmForceCompileAndDiagnostics<CR>
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_extra_conf_globlist = ['/media/DOCUMENT/code_exp/*']
+let g:ycm_filetype_blacklist = {
+    \ 'tagbar' : 1,
+    \ 'qf' : 1,
+    \ 'notes' : 1,
+    \ 'markdown' : 1,
+    \ 'unite' : 1,
+    \ 'text' : 1,
+    \ 'vimwiki' : 1,
+    \ 'pandoc' : 1,
+    \ 'infolog' : 1,
+    \ 'mail' : 1
+    \}
+
+" utilsnips & ycm
+let g:UltiSnipsExpandTrigger = '<C-@>'   " terminals send C-@ when C-Space is pressed.
+let g:UltiSnipsJumpForwardTrigger = '<C-%>' " some key I do not use at all
+
+let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
+let g:UltiSnipsSnippetDirectories  = ["UltiSnips"]
+
+function! g:UltiSnips_Complete()
+    call UltiSnips#ExpandSnippet()
+    if g:ulti_expand_res == 0
+        call UltiSnips#JumpForwards()
+        if g:ulti_jump_forwards_res == 0
+           return ""  " nothing more to do
+        endif
+    endif
+    return ""
+endfunction
+
+au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
+
+" disable ghcmod
+au! BufWritePost *.hs

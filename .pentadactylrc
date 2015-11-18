@@ -1,0 +1,21 @@
+"hg7046
+
+loadplugins '\.(js|penta)$'
+group user
+highlight Hint font: bold 10px "Droid Sans Mono", monospace !important; margin: -.2ex; padding: 0 0 0 1px; outline: 1px solid rgba(0, 0, 0, .5); background: rgba(255, 248, 231, .8); color: black; text-transform: uppercase;
+map -count -modes=n,v <C-j> <count>:jumps<Return>
+map -count -modes=n <C-l> <count>100l
+map -count -modes=n,v <C-q> <Nop>
+map -count -modes=n,v <Down> <Nop>
+map -count -modes=n,v <Left> <Nop>
+map -count -modes=n,v <Right> <Nop>
+map -count -modes=n,v <Up> <Nop>
+map -count -modes=n <C-h> <count>100h
+map -count -modes=C <C-A-m> <count>:emenu<Space>Tools.Default<Space>User<Space>Agent.Mobile<Space>Devices.OS.Android.Android<Space>4.0.3<Space>-<Space>Mobile<Space>Safari<Space>534.30<Space>-<Space>Samsung<Space>Galaxy<Space>S<Space>II<Return>
+map -count -modes=C <C-A-d> <count>:emenu<Space>Tools.Android<Space>4.0.3<Space>-<Space>Mobile<Space>Safari<Space>534.30<Space>-<Space>Samsung<Space>Galaxy<Space>S<Space>II.Default<Space>User<Space>Agent<Return>
+set defsearch=duckduckgo
+set guioptions=sCN
+set hintkeys=asdfgeriulkjh
+set showtabline=never
+
+" vim: set ft=pentadactyl:

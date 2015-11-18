@@ -1,1 +1,10 @@
-../.vimrc.before.local
+let g:spf13_bundle_groups=['general', 'writing', 'programming', 'youcompleteme', 'python', 'misc',]
+"let g:spf13_bundle_groups=['general', 'writing', 'programming', 'python', 'misc',]
+"let g:spf13_bundle_groups=['general',]
+let g:spf13_use_powerline=1
+let g:spf13_leader='\'
+let g:spf13_localleader='\'
+
+
+let g:spf13_edit_config_mapping='<leader>ec'
+let g:spf13_apply_config_mapping='<leader>sc'

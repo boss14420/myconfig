@@ -1,0 +1,406 @@
+! fluxbox-update_configs added '(workspace=[current])' to (Next|Prev)(Window|Group)
+! check lines marked by 'FBCV13' if they are correctly updated
+!mouse actions added by fluxbox-update_configs
+OnTitlebar Mouse1 :MacroCmd {Focus} {Raise} {ActivateTab}
+!mouse actions added by fluxbox-update_configs
+OnTitlebar Move1 :StartMoving
+OnLeftGrip Move1 :StartResizing bottomleft
+OnRightGrip Move1 :StartResizing bottomright
+OnWindowBorder Move1 :StartMoving
+
+OnWindow Mod1 Mouse1 :MacroCmd {Focus} 
+OnWindow Mod1 Move1 :StartMoving
+
+OnTitlebar Mouse3 :WindowMenu
+
+#
+#   This keys file is licensed public domain.  There is no support or warranty for it.  This file should be considered untested and
+#   to be used at your own risk.
+#
+#
+#	Created November 2007 by Chris Knight
+#
+###########################################################################################################################################
+#
+#  Lines beginning with '#' are comments and ignored by fluxbox.  Alternatively the '!' comment delimiter may be used.
+#
+#  Use 'xev' on the command line to identify the name (or keycode) of the key.
+#  Use 'xmodmap -m' to identify the various modifiers on your keyboard
+#
+#  The following modifiers are used in this key file:
+#		 Mod1    == Alt
+#		 Mod4    == Windows key
+#		 Control == Ctrl
+#		 shift   == Shift
+#
+#  Some notes on the keys use:
+#		 1) Your milage may vary.  **** These keys are for my keyboard. ****  While I've tried to avoid special keys, 
+#		    your keyboard may be different.		 
+#  		 2) KP_4 refers to "4"/Left arrow on the keypad.  If your keyboard does not have a keypad, you will likely have to remap these keys.
+#		 3) Several commands may require you to pull in additional programs (e.g. gmessage) or create custom Menu files to work properly
+#
+#  The following commands are not implemented in this keys file:
+#		 1) SetWorkspaceName		# Changes the name of the current workspace
+#		 2) SetHead <int>               # Sets the default head for a window --> xinerama
+#		 3) NextGroup <by-number>	#????
+#		 4) NextGroup <by-number>	#????
+#		 5) RightWorkspace <by-number>  # Switches "number" workspaces to the right
+#		 6) LeftWorkspace <by-number>   # Switches "number" workspaces to the left
+#		 7) NextWindow <bitmask>        # Allows fine tuned control of window switching.  See the fluxbox wiki or man page for further info
+#		 8) PrevWindow <bitmask>        # Allows fine tuned control of window switching.  See the fluxbox wiki or man page for further info
+#		 9) HideMenu 			# ????
+#
+#  Commands with 'osdctl' in them require the utility osdsh to be installed, and for osdsh to be running.
+#
+###########################################################################################################################################
+
+
+#Control-Escape will turn off all key bindings in this file, until Control-Escape is pressed again.  Note the one exception for this is the root menu.
+Control Escape		               	:MacroCmd {Exec osdctl -s "Keys off,"} {keyMode KeysOff Control Escape} 
+KeysOff: Control Mod4 Mod1 Mouse3 	:rootMenu
+
+###########################################################################################################################################
+#		 		 		 Desktop Actions
+# 
+# Controlled by mouse clicks/wheel on desktop
+#
+# OnDesktop means a mouse press on the desktop
+# Mouse 1=left click, 2=middle click, 3=right click, 4=mouse wheel down, 5=mouse wheel up
+###########################################################################################################################################
+
+OnDesktop Mouse1 :hideMenus
+OnDesktop Mouse2 :workspaceMenu
+OnDesktop Mouse3 :rootMenu
+OnDesktop Mouse4 :nextWorkspace
+OnDesktop Mouse5 :prevWorkspace
+
+###########################################################################################################################################
+#		 		 		 Fluxbox Window Manager commands
+#
+# Controlled mostly by Mod4 and Shift keys
+#
+# Restart takes optional <argument> of which window manager to restart to (default is fluxbox, of course)
+# Reload style allows you to make changes to the current style and then quickly reload it.
+###########################################################################################################################################
+
+Mod4 shift r		:Restart 
+Mod4 shift q		:Quit
+Mod4 shift e		:Exit
+Mod4 shift Escape	:MacroCmd {Exec osdctl -s "Reconfiguring,"} {Reconfigure}
+Mod4 shift 1		:MacroCmd {SetStyle /usr/local/share/fluxbox/styles/bora_black} {Exec fbsetbg ~/Wallpapers/wallpaper102.jpg}
+Mod4 shift 2		:MacroCmd {SetStyle /usr/local/share/fluxbox/styles/bloe} {Exec fbsetbg ~/Wallpapers/Lion-clear.jpg} 
+Mod4 shift Delete	:MacroCmd {Exec osdctl -s "Reloading current style,"} {ReloadStyle} 
+Mod4 shift m		:RootMenu
+Mod4 Mouse3		:RootMenu
+Mod4 Mouse1		:HideMenu
+Mod4 shift w		:WorkspaceMenu
+Mod4 shift t		:WindowMenu
+
+###########################################################################################################################################
+#		 		 Window commands
+#
+# Controlled (mostly) by Mod4 and Mod1 keys
+###########################################################################################################################################
+
+#Window Menu commands (Controlled by Mod4 <Mod1>)
+Mod1 F4	 		:Close
+Mod4 Mod1 Delete	:KillWindow
+Mod4 Mod1 space  	:Shade
+Mod4 Mod1 s		:Stick
+Mod4 Mod1 0		:ToggleDecor
+
+#Send-to (Controlled by Mod4 Mod1 Fn)
+Mod4 Mod1 F1		:SendToWorkspace 1
+Mod4 Mod1 F2		:SendToWorkspace 2
+Mod4 Mod1 F3		:SendToWorkspace 3
+Mod4 Mod1 F4		:SendToWorkspace 4
+Mod4 Mod1 shift F2	:SendToNextWorkspace 1
+Mod4 Mod1 shift F1	:SendToPrevWorkspace -1
+
+#Take-to (Controlled by Mod4 Fn)
+Mod4 F1		 	:TakeToWorkspace 1
+Mod4 F2		 	:TakeToWorkspace 2
+Mod4 F3		 	:TakeToWorkspace 3
+Mod4 F4		 	:TakeToWorkspace 4
+Mod4 shift F6		:TakeToNextWorkspace 1
+Mod4 shift F5		:TakeToPrevWorkspace -1
+
+#Tabs (Controlled by Mod4 Mod1)
+Mod4 Mod1 F9 		:PrevTab
+Mod4 Mod1 F10		:NextTab
+Mod4 Mod1 F11		:MoveTabLeft
+Mod4 Mod1 F12		:MoveTabRight
+Mod4 Mod1 Escape	:DetachClient
+
+###########################################################################################################################################
+#		 		 Window Layer/Focus/Alpha commands
+#
+# Controlled (mostly) by Mod4 Mod1
+#
+###########################################################################################################################################
+Mod4 Mod1 End		:Lower
+Mod4 Mod1 Home		:Raise
+Mod4 Mod1 comma		:LowerLayer
+Mod4 Mod1 period	:RaiseLayer
+Mod4 Mod1 Up		:FocusUp
+Mod4 Mod1 Down		:FocusDown
+Mod4 Mod1 Left		:FocusLeft
+Mod4 Mod1 Right		:FocusRight
+Mod4 Mod1 bracketright	:SetAlpha +5 +5
+Mod4 Mod1 bracketleft	:SetAlpha -5 -5
+Mod4 Right		:NextWindow (workspace=[current]) !! FBCV13 !!
+Mod4 Left		:PrevWindow (workspace=[current]) !! FBCV13 !!
+Mod1 Tab		:NextWindow (workspace=[current]) !! FBCV13 !!
+
+###########################################################################################################################################
+#		 		 Window Moving/Sizing commands
+#
+# Controlled by Control Mod1 (and primarly the numeric keypad) for move and Control Mod4 (keypad) for resize
+#
+###########################################################################################################################################
+Control Mod1 f		:Fullscreen
+Control Mod1 minus	:Minimize
+Control Mod1 equal	:Maximize
+Control Mod1 h		:MaximizeHorizontal
+Control Mod1 v		:MaximizeVertical
+
+#Moving
+Control Mod1 KP_Divide	:MoveTo 10 10
+Control Mod1 KP_1	:Move -5 +5
+Control Mod1 KP_9	:Move +5 -5
+Control Mod1 KP_7	:Move -5 -5
+Control Mod1 KP_3	:Move +5 +5
+Control Mod1 KP_6	:MoveRight 2
+Control Mod1 KP_4	:MoveLeft 2
+Control Mod1 KP_8	:MoveUp 2
+Control Mod1 KP_2 	:MoveDown 2
+Control Mod1 shift KP_6	  :MoveRight 10
+Control Mod1 shift KP_4	  :MoveLeft 10
+Control Mod1 shift KP_8	  :MoveUp 10
+Control Mod1 shift KP_2	  :MoveDown 10
+Control Mod1 KP_5 	:MacroCmd {MoveTo 15 15} {ResizeTo 1115 810}
+#### Alternate moving using key modes. (i.e. Mod4 w(indow) Mod4 m(ove)).MoveMode 
+Mod4 w Mod4 m               :KeyMode MoveMode
+MoveMode: None Up           :MoveUp 2
+MoveMode: None Down         :MoveDown 2
+MoveMode: None Left         :MoveLeft 2
+MoveMode: None Right        :MoveRight 2
+MoveMode: shift Up          :MoveUp 10
+MoveMode: shift Down        :MoveDown 10
+MoveMode: shift Left        :MoveLeft 10
+MoveMode: shift Right       :MoveRight 10
+
+
+#Resizing
+Control Mod4 KP_Divide		:ResizeTo 800 600
+Control Mod4 KP_Multiply	:ResizeTo 1115 810
+Control Mod4 KP_Subtract	:Resize -5 -5
+Control Mod4 KP_Add		:Resize +5 +5
+Control Mod4 KP_4		:ResizeHorizontal -2
+Control Mod4 KP_6		:ResizeHorizontal +2
+Control Mod4 KP_8		:ResizeVertical -2
+Control Mod4 KP_2		:ResizeVertical +2
+Control Mod4 shift KP_4		:ResizeHorizontal -10
+Control Mod4 shift KP_6		:ResizeHorizontal +10
+Control Mod4 shift KP_8		:ResizeVertical -10
+Control Mod4 shift KP_2		:ResizeVertical +10
+###Alternate resizing using key modes. (i.e. Mod4 w(indow) Mod4 r(esize)). ResizeMode
+Mod4 w Mod4 r               :KeyMode ResizeMode
+ResizeMode: None Up         :ResizeVertical -2
+ResizeMode: None Down       :ResizeVertical +2
+ResizeMode: None Left       :ResizeHorizontal -2
+ResizeMode: None Right      :ResizeHorizontal +2
+ResizeMode: shift Up         :ResizeVertical -10
+ResizeMode: shift Down       :ResizeVertical +10
+ResizeMode: shift Left       :ResizeHorizontal -10
+ResizeMode: shift Right      :ResizeHorizontal +10
+
+###########################################################################################################################################
+#		 		 Workspace commands
+#
+# Controlled by <Control> Mod4 keys
+# Arrange Windows will tile windows vertically
+###########################################################################################################################################
+
+Control Mod4 Right	:NextWorkspace
+Control Mod4 Left	:PrevWorkspace
+Mod4 1		 	:Workspace 1
+Mod4 2		 	:Workspace 2
+Mod4 3		 	:Workspace 3
+Mod4 4		 	:Workspace 4
+Mod4 5		 	:Workspace 5
+Mod4 6		 	:Workspace 6
+Control Mod4 a		:ArrangeWindows
+Control Mod4 s		:ShowDesktop
+Control Mod4 Up		:Deiconify LastWorkspace
+Control Mod4 Down	:Deiconify All OriginQuiet
+#Deiconify Last OriginQuiet  # Uniconifies minimized windows
+#Deiconify All OriginQuiet   # Uniconifies all minimized windows
+
+###########################################################################################################################################
+###########################################################################################################################################
+###########################################################################################################################################
+###
+###   		 		 Custom actions 		 	
+###
+###########################################################################################################################################
+###########################################################################################################################################
+###########################################################################################################################################
+
+###########################################################################################################################################
+# 		 		 Volume
+#
+#  Will lower or raise volume by 5%.  The third key binding will toggle mute on and off.
+#  Note that this key binding is specific to my multi-media keyboard.  Check 'xev' output for your specific key
+###########################################################################################################################################
+
+#None XF86AudioLowerVolume       :Exec amixer sset Master,0 1-
+#None XF86AudioRaiseVolume       :Exec amixer sset Master,0 1+
+#None XF86AudioMute              :Exec amixer sset Master,0 toggle
+None XF86AudioLowerVolume       :Exec pulseaudio-ctl down
+None XF86AudioRaiseVolume       :Exec pulseaudio-ctl up
+None XF86AudioMute              :Exec pulseaudio-ctl mute
+None XF86AudioNext		:Exec mpc next
+None XF86AudioPrev		:Exec mpc prev
+None XF86AudioPlay		:Exec mpc toggle
+None XF86AudioStop		:Exec mpc stop
+Mod1 m Mod1 n                   :Exec mpc next
+Mod1 m Mod1 p                   :Exec mpc prev
+Mod1 m Mod1 t                   :Exec mpc toggle
+Mod1 m Mod1 s   		:Exec mpc stop
+Mod1 m Mod1 b                   :Exec mpc seek -7
+Mod1 m Mod1 f                   :Exec mpc seek +7
+
+
+###########################################################################################################################################
+#                               XF86 Shortcuts
+###########################################################################################################################################
+
+None XF86Sleep                  :Exec sudo systemctl suspend
+None XF86Hibernate              :Exec sudo systemctl hibernate
+
+#################################################################################################################
+#
+#                               brightness
+#################################################################################################################
+Control Mod1 Up                 :Exec sudo intelbrightness "* 11 / 10"
+Control Mod1 Down               :Exec sudo intelbrightness "* 9 / 10"
+################################################################################################################
+
+###########################################################################################################################################
+#		 		 Music Player.  
+#
+#  Amarok.  '-f' will forward one track. '-r' will reverse one track. '--pause' will toggle playback pause
+###########################################################################################################################################
+Control Mod4 Mod1 Right 	:Exec amarok -f
+Control Mod4 Mod1 Left 		:Exec amarok -r
+Control Mod4 Mod1 Down          :Exec amarok --pause
+None Menu		 	:CustomMenu ~/.fluxbox/customMenus/Amarok
+
+###########################################################################################################################################
+#		  		 Show/Edit fluxbox files.  
+#    	Show (Mod4 s ...)		Read-only display
+#	Edit (Mod4 e ...)		Edit in nano.  Terminal running will close after exiting nano.
+#					Alternatively, you could use gedit:
+#					  Mod4 e Mod4 k   	:Exec gedit ~/.fluxbox/keys
+#
+#  This shows an emacs style binding of pressing one key sequence and then the next, as well as using environment variables
+#  Show commands require 'gmessage' to be installed (sudo aptitude install gmessage)
+###########################################################################################################################################
+Mod4 s Mod4 k   	:Exec gmessage --file ~/.fluxbox/keys -buttons "Close" -font "monospace 8" -geometry 500x800 -default "Close" -center
+Mod4 s Mod4 a   	:Exec gmessage --file ~/.fluxbox/apps -buttons "Close" -font "monospace 8" -geometry 500x800 -default "Close" -center
+Mod4 s Mod4 m   	:Exec gmessage --file ~/.fluxbox/menu -buttons "Close" -font "monospace 8" -geometry 800x800 -default "Close" -center
+Mod4 s Mod4 i   	:Exec gmessage --file ~/.fluxbox/init -buttons "Close" -font "monospace 8" -geometry 500x800 -default "Close" -center
+Mod4 s Mod4 o   	:Exec gmessage --file ~/.fluxbox/overlay -buttons "Close" -font "monospace 8" -geometry 800x800 -default "Close" -center
+Mod4 e Mod4 k   	:Exec $CONSOLE nano ~/.fluxbox/keys
+Mod4 e Mod4 a   	:Exec $CONSOLE nano ~/.fluxbox/apps
+Mod4 e Mod4 m   	:Exec $CONSOLE nano ~/.fluxbox/menu
+Mod4 e Mod4 i   	:Exec $CONSOLE nano ~/.fluxbox/init
+Mod4 e Mod4 o   	:Exec $CONSOLE nano ~/.fluxbox/overlay
+
+###########################################################################################################################################
+#		 		 File Manager  (Mod4 f Mod4 ...)
+#
+# nautilus --no-desktop is used in the example below, but others will work too
+# Custom menu uses a menu of pre-defined locations to open in nautilus --no-desktop (e.g. home, music, video, etc.)
+# Mod4 f Mod4 <1..9> are individual key bindings to specific locations
+###########################################################################################################################################
+Control Menu		:CustomMenu ~/.fluxbox/customMenus/nautilus --no-desktop
+Mod4 f Mod4 1		:Exec nautilus --no-desktop ~/.fluxbox
+Mod4 f Mod4 2   	:Exec nautilus --no-desktop /usr/bin
+Mod4 f Mod4 3   	:Exec nautilus --no-desktop ~/downloads
+#Mod4 f Mod4 4   	:Exec nautilus --no-desktop <another-location>
+#etc...
+#Prepopulate fbrun with text "nautilus --no-desktop ".  Simply supply the directory to go to
+Mod4 f Mod4 r   	:Exec fbrun -text "thunar "
+
+###########################################################################################################################################
+#		 		 Common Programs  (Mod4 a Mod4 ...)  ('a' stands for application)
+###########################################################################################################################################
+Mod4 a Mod4 f		 :Exec firefox
+Mod4 a Mod4 s		 :Exec swiftfox
+Mod4 a Mod4 g		 :Exec googleearth
+Mod4 a Mod4 o		 :Exec opera
+#Mod4 a Mod4 x		 :Exec xvnkb
+Mod4 a Mod4 a		 :Exec amarok
+Mod4 a Mod4 r		 :Exec rhythmbox
+Mod4 a Mod4 m		 :Exec midori
+Mod4 a Mod4 n		 :Exec nautilus --no-desktop
+Mod4 a Mod4 t		 :Exec thunar
+Mod4 t		 	 :Exec lilyterm
+Mod4 r   		 :Exec fbrun
+Mod4 c  		 :ToggleCmd {Exec conky} {Exec pkill conky}
+#Mod1 space		 :Exec ~/.scripts/xvnkb-shortcut
+
+###########################################################################################################################################
+#		 		 Session Menu  
+#
+#  Offers menu with choices lock session, reboot, logout, and shutdown
+###########################################################################################################################################
+Control Mod1 s		 	 :CustomMenu ~/.fluxbox/customMenus/session
+
+###########################################################################################################################################
+#		 		 Screen Shots  
+#
+# These will create a screenshot in your ~/misc directory.  ("mkdir ~/misc" if you need to create one)
+# The first command will take a screenshot of your entire desktop
+# The second command will take a screenshot of the active window only
+###########################################################################################################################################
+None Print             :Exec import -window root ~/screenshots/screen$(date +%F_%H.%M).png
+Mod4 Print             :Exec import -frame -window $(xprop _NET_ACTIVE_WINDOW -root | awk '{print $5}') ~/screenshots/window$(date 
++%F_%H.%M).png
+
+###########################################################################################################################################
+#		 		 		 		 Misc actions  
+###########################################################################################################################################
+
+#Toggle between empty workspace (i.e. desktop) and open windows
+Mod4 d 			:ToggleCmd {ShowDesktop} {DeIconify all originquiet}
+
+#This is currently broken as Reconfigure resets the Toggle, so will never reach the 'other' toggle.
+#Mod4 v :ToggleCmd (MacroCmd (SetResourceValue session.screen0.toolbar.visible true) (Reconfigure)) (MacroCmd (SetResourceValue session.screen0.toolbar.visible false) (Reconfigure))
+
+#Hide/Show toolbar with 2 macro commands until Toggle/Reconfigure bug is fixed
+Mod4 comma		:MacroCmd {SetResourceValue session.screen0.toolbar.visible false} {Reconfigure}
+Mod4 period		:MacroCmd {SetResourceValue session.screen0.toolbar.visible true} {Reconfigure}
+
+#Turn monitor off
+None Pause		:Exec ~/.scripts/screen-off.sh
+
+#Print Calendar for this month (KP_1), prev/this/next month (KP_2), or for the year (KP_3)
+Mod4 KP_1 :Exec zenity --calendar --text=""
+Mod4 KP_2 :Exec (date +'Today: %A %b %d';echo;cal -3)| gmessage --file - -buttons "GTK_STOCK_CLOSE" -font "monospace 8" -geometry 505x229 --borderless -default "GTK_STOCK_CLOSE" -center
+Mod4 KP_3 :Exec (date +'Today: %A %b %d';echo;cal -y)| gmessage --file - -buttons "GTK_STOCK_CLOSE" -font "monospace 8" -geometry 505x570 --borderless -default "GTK_STOCK_CLOSE" -center
+Mod4 KP_5 :Exec osdctl -s "$(date +'%A %d %b %H:%M,')"
+
+# open a terminal
+Mod1 F1 :Exec xterm
+
+# open a dialog to run programs
+Mod1 F2 :Exec fbrun
+
+# invert color
+Ctrl Mod1 i             :Exec xcalib -invert -alter
+
+
+

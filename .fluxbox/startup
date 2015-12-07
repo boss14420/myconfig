@@ -1,0 +1,82 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+#fbsetbg -c ~/.fluxbox/backgrounds/sid_fluxbox.jpg
+$(cat ~/.fehbg)
+
+# Change your keymap:
+#xmodmap "/home/boss14420/.Xmodmap"
+alias update-fluxkey="kill -s USR2 `xprop -root _BLACKBOX_PID | awk '{print $3}'`" 
+
+#export LD_PRELOAD=/usr/lib/xvnkb.so
+#export XMODIFIERS="@im=xvnkb"
+#export XIM=xvnkb
+#export GTK_IM_MODULE="xim"
+#export QT_IM_MODULE="xim"
+#export BROWSER=opera
+
+# fcitx
+#fcitx
+
+# Ibus
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+
+# SDL audio
+export SDL_AUDIODRIVER=pulse
+#fluidsynth -a pulseaudio -m alsa_seq -l -i /usr/share/soundfonts/FluidR3_GM2-2.sf2 -s &
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+#nm-applet &
+#gnome-volume-control-applet &
+#update-notifier --startup-delay=120 &
+#gnome-power-manager &
+#stardict -h &
+#xmms2-launcher &
+#mpd /home/boss14420/.mpd/mpd.conf &
+#irexec -d &
+#irxevent -d &
+#mpc load hello &
+#mpc repeat &
+#mpc random &
+#remuco-mpd &
+goldendict &
+#indicator-cpufreq &
+#~/.scripts/auto_wallpaper.sh &
+~/.scripts/conky_start.sh &
+xbindkeys &
+#conky &
+#ibus-daemon -x &
+#xvnkb &
+#urxvtd &
+#trayfreq &
+paramano &
+pasystray &
+pidgin &
+xbacklight -set 0 &
+#numlockx &
+#batti &
+#~/.scripts/firefox-del-cache &
+#/usr/lib/notification-daemon-1.0/notification-daemon &
+systemctl --user start dropbox@boss14420.service &
+systemctl --user start xfluxd@boss14420.service &
+(sleep 3 && ibus-daemon -x) &
+
+
+# /home/boss14420/.conkycolors/conkyrc &
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/username/.fluxbox/log"

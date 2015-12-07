@@ -1,1 +1,2 @@
 "Bundle 'gilligan/vim-lldb'
+Plugin 'crucerucalin/qml.vim'

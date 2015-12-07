@@ -53,6 +53,7 @@ let g:clang_complete_auto=1
 let g:clang_complete_copen=1
 let g:clang_user_options=' -std=c++11 || exit 0'
 let g:clang_use_library = 1
+let g:ycm_confirm_extra_conf = 1
 "let g:clang_snippets=1
 set completeopt=menu,longest
 "let g:SuperTabDefaultCompletionType = "context"
@@ -230,3 +231,5 @@ au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:U
 
 " disable ghcmod
 au! BufWritePost *.hs
+
+UnBundle 'jiangmiao/auto-pairs'

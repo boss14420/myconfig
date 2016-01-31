@@ -1,0 +1,1266 @@
+sw_volume: 96
+audio_device_state:1:My FIFO
+audio_device_state:1:My Pulse Output
+state: play
+current: 101
+time: 120.058000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Soba Ni Irareru Dake De - Blue Drops.mp3
+1:OreImo OST/Irony - ClariS [MP3 320kbps].mp3
+2:OreImo OST/Reunion - Claris [MP3 320kbps].mp3
+3:SnO OST/ED Album/08 - Hatsukoi.mp3
+4:WA2/SoundOfDestinyLiveAtCampusFes-YonezawaMadoka-2917086_hq.mp3
+5:WA2/White Album 2 OST Vol 3 ~setsuna~ [FLAC]/01 Todokanai Koi Live at Campus Fes.flac
+6:WA2/White Album 2 OST Vol 3 ~setsuna~ [FLAC]/02 WHITE ALBUM Live at Campus Fes.flac
+7:So Nyuh Shi Dae/Girls' Generation - Love & Peace (320kbps)/03 Flyers.mp3
+8:So Nyuh Shi Dae/Girls' Generation - Love & Peace (320kbps)/10 Karma Butterfly.mp3
+9:So Nyuh Shi Dae/Girls' Generation - Love & Peace (320kbps)/12 Everyday Love.mp3
+10:So Nyuh Shi Dae/TTS/Holler/05 Only U.mp3
+11:So Nyuh Shi Dae/Girls' Generation 4th Mini Album 'Mr. Mr/02 Goodbye.mp3
+12:So Nyuh Shi Dae/Girls' Generation 4th Mini Album 'Mr. Mr/04 Wait a Minute.mp3
+13:So Nyuh Shi Dae/Girls' Generation 4th Mini Album 'Mr. Mr/05 백허그 (Back Hug).mp3
+14:DAL OST/Date A Live - Sweet ARMS [MP3 320kbps].mp3
+15:DAL OST/Trust In You - Sweet ARMS [MP3 320kbps].mp3
+16:So Nyuh Shi Dae/Tiffany/Only One - Tiffany [MP3 320kbps].mp3
+song_begin: http://192.168.1.103:9999/get_song?id=2c41947e-e318-385c-8e32-cbad2f668ba9
+Artist: Ashley Tisdale
+Title: What If
+Album: Guilty Pleasure
+Track: 08
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=b9362d3b-bb9c-37c7-921f-cc05e4089a89
+Artist: So Nyuh Shi Dae
+AlbumArtist: SNSD
+Title: Born To Be A Lady
+Album: Girls' Generation - 1st Japanest Album
+Track: 12
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=84009a9c-518e-34a3-92b0-a927040b90a3
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Mistake
+Album: Hoot
+Track: 02
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=e30f2129-3cdf-32a1-9157-216eac8e807f
+Artist: So Nyuh Shi Dae
+Title: Dear. Mom
+Album: Gee
+Track: 03
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=Tejkewrx4aezpn5agrptti7q5ai
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=ecfa36be-3d22-3004-8426-61b4827abfa7
+Artist: Jessica
+AlbumArtist: Jessica (제시카)
+Title: That One Person, You
+Album: OST Dating Agency: Cyrano
+Track: 01
+Genre: OST
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=cd736a54-69d4-3a77-b6cb-dfb508d39499
+Artist: Jessica
+Title: Unstoppable tears
+Album: OST Romance Town
+Track: 00
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=24a21fdc-2e91-37af-a76c-c1e958b7ec8f
+Artist: Jessica
+AlbumArtist: 제시카
+Title: Heart Road
+Album: OST The Great King's Dream Part 1
+Track: 01
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=83b57f28-b8ec-3640-9cec-407a80d9a282
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 그대를 부르면 (Tears)
+Album: Girls' Generation
+Track: 07
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=40228ab5-8ae7-3f43-86de-b5dd04d2f72e
+Artist: Tae Yeon
+AlbumArtist: Tae Yeon
+Title: Can You Hear Me
+Album: OST Beethoven Virus
+Track: 11
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0c294bb5-ce60-3126-a60f-e09b02d3088c
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 소녀시대
+Album: Girls' Generation
+Track: 01
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=9b1db8ce-5b9c-38a9-a515-faf62aee3964
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Complete
+Album: Girls' Generation
+Track: 04
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=34ae9bcf-4890-37c3-bafd-44ab256b0745
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Honey (소원)
+Album: Girls' Generation
+Track: 10
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=374d4bdd-c41d-3268-b713-4a9764ed67a2
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 다시 만난 세계 (Into The New World)
+Album: Girls' Generation
+Track: 11
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=e30f2129-3cdf-32a1-9157-216eac8e807f
+Artist: So Nyuh Shi Dae
+Title: Dear. Mom
+Album: Gee
+Track: 03
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=24a21fdc-2e91-37af-a76c-c1e958b7ec8f
+Artist: Jessica
+AlbumArtist: 제시카
+Title: Heart Road
+Album: OST The Great King's Dream Part 1
+Track: 01
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=83b57f28-b8ec-3640-9cec-407a80d9a282
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 그대를 부르면 (Tears)
+Album: Girls' Generation
+Track: 07
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=16c2b8ae-1803-359f-b229-65b55506a6d7
+Artist: So Nyuh Shi Dae
+Title: Talk To Me
+Album: Oh!
+Track: 07
+Genre: ¹ß¶óµå
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=edd556a0-c5d9-3fbd-a704-751e32b960e6
+Artist: So Nyuh Shi Dae
+Title: Ppeon & Fun (Sweet Talking Baby)
+Album: Run Devil Run
+Track: 06
+Genre: (3)Dance
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=42ac8c49-7fe8-382a-badc-59db4c822425
+Artist: So Nyuh Shi Dae
+Title: I Want To Dream With You Forever (Forever)
+Album: Run Devil Run
+Track: 07
+Genre: (3)Dance
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=2368b05d-4d5e-37cf-be61-0d0eaa370e5c
+Artist: So Nyuh Shi Dae
+Title: Think About Good Things (Day By Day)
+Album: Run Devil Run
+Track: 13
+Genre: (3)Dance
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=43ed96c5-4e99-3091-9447-732298a97e5d
+Artist: So Nyuh Shi Dae
+Title: Star Star Star
+Album: Run Devil Run
+Track: 11
+Genre: (3)Dance
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1a820890-6160-3709-83aa-fc291cbb7e21
+Artist: Sunny
+Title: Finally Now
+Album: OST Story of Wine
+Track: 00
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=631325fe-92ea-3902-b78e-a664d9bf83f8
+Artist: Sunny
+Title: You Don't Know About Love
+Album: OST Working Mom
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=997d4b4d-789d-3a2c-9c56-80c4380129a2
+Artist: Sunny
+Title: Your Doll
+Album: OST Oh My Lady
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=77451278-38ae-3288-882c-530fb22dbdb1
+Artist: Tae Yeon
+Title: 사랑해요(I LOVE YOU)
+Album: OST Athena
+Track: 01
+Genre: kaboomza.com
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=3ffa4841-9016-3315-9ce7-6d80095e03df
+Artist: Tae Yeon
+Title: Like A Star
+Album: Like A Star
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f3d2de55-cefd-36ed-91a8-9426235ddb00
+Artist: Tae Yeon
+AlbumArtist: Tae Yeon
+Title: 그리고 하나(And One)
+Album: OST That Winter , The Wind Blows Part.5
+Track: 01
+Genre: (116)Ballad
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=033b3e6b-118d-35a6-b2d4-0bcedde81a92
+Artist: Tae Yeon
+AlbumArtist: TaeYeon
+Title: Missing you like crazy
+Album: OST The King 2hearts
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f7f79976-3122-3dba-bab1-3cbda699b3a5
+Artist: Tae Yeon
+AlbumArtist: 태연 [소녀시대]
+Title: Bye (Chinese ver.)
+Album: OST Mr.Go
+Track: 02
+Genre: 팝 > 발라드 (Ballad), OST  > > 영화
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=8040690b-db83-360b-b3b9-6f4de45c3bb9
+Artist: Tae Yeon
+AlbumArtist: S.M. THE BALLAD
+Title: 숨소리(Breath) (Sung by 태연 of 소녀시대 & 종현 of 샤이니)
+Album: S.M. THE BALLAD Vol. 2 `Breath` 숨소리
+Track: 01
+Genre: (116)Ballad
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=40228ab5-8ae7-3f43-86de-b5dd04d2f72e
+Artist: Tae Yeon
+AlbumArtist: Tae Yeon
+Title: Can You Hear Me
+Album: OST Beethoven Virus
+Track: 11
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=b9362d3b-bb9c-37c7-921f-cc05e4089a89
+Artist: So Nyuh Shi Dae
+AlbumArtist: SNSD
+Title: Born To Be A Lady
+Album: Girls' Generation - 1st Japanest Album
+Track: 12
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=662d1f13-c461-356b-b371-afe360886f85
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Let It Rain
+Album: Girls' Generation - 1st Japanest Album
+Track: 08
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=4ab9aad8-ab05-3d7f-867c-a41aedc71a1b
+Artist: Ashley Tisdale
+AlbumArtist: Ashley Tisdale
+Title: We'll Be Together
+Album: Headstrong
+Track: 12
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=bf1ea4f2-755c-319a-98c7-eb89e5846b74
+Artist: Ashley Tisdale
+AlbumArtist: Ashley Tisdale
+Title: Positivity
+Album: Headstrong
+Track: 07
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=a7fcb279-a743-36f5-a98b-62236b66b36a
+Artist: Disney Channel Stars
+Title: A Dream Is A Wish Your Heart Makes
+Album: Princess Disney Mania
+Track: 14
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=e9135400-b6c8-33fa-b44b-83037d89ffeb
+Artist: Tae Yeon
+AlbumArtist: 김범수, 태연
+Title: 달라(Different)
+Album: 달라 (Digital Single)
+Track: 01
+Genre: (116)Ballad
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=bbaeb25a-a13a-3006-a1d3-e1d1e4782b28
+Artist: Ashley Tisdale
+Title: Tell Me Lies
+Album: Guilty Pleasure
+Track: 07
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=ea89f7a5-e8e9-3a01-89be-7dabef08f47c
+Artist: Ashley Tisdale
+Title: Last Christmas
+Album: Last Christmas
+Track: 00
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=84009a9c-518e-34a3-92b0-a927040b90a3
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Mistake
+Album: Hoot
+Track: 02
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=4ca49154-8c57-3731-b478-11ee73280b22
+Artist: Ashley Tisdale
+Title: How Do You Love Someone
+Album: Guilty Pleasure
+Track: 06
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=13edca61-16c6-3daf-8ff9-3670ef1814f9
+Artist: Ashley Tisdale
+Title: Me Without You
+Album: Guilty Pleasure
+Track: 12
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0c9da352-6575-30e6-a459-6c2298ed9b78
+Artist: Ashley Tisdale
+Title: Hair
+Album: Guilty Pleasure
+Track: 10
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=29b5d122-cce5-3bb2-aed7-6d275ab10910
+Artist: Ashley Tisdale
+AlbumArtist: Ashley Tisdale
+Title: Suddenly
+Album: Headstrong
+Track: 14
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=ecfa36be-3d22-3004-8426-61b4827abfa7
+Artist: Jessica
+AlbumArtist: Jessica (제시카)
+Title: That One Person, You
+Album: OST Dating Agency: Cyrano
+Track: 01
+Genre: OST
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=7cbdcf88-cef6-3191-9fb9-857006cd0115
+Artist: Ashley Tisdale
+AlbumArtist: Ashley Tisdale
+Title: Don't Touch
+Album: Headstrong
+Track: 11
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=bbccfe4c-851f-3417-810f-796773b14729
+Artist: Ashley Tisdale
+Title: Masquerade
+Album: Guilty Pleasure
+Track: 03
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=d513aae8-c974-38ef-9e0e-120507ed9062
+Artist: Ashley Tisdale
+Title: Overrated
+Album: Guilty Pleasure
+Track: 04
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0031ba40-9f73-3e4e-a5b3-f07a2dd2eaa9
+Artist: Ashley Tisdale
+AlbumArtist: Ashley Tisdale
+Title: So Much For You
+Album: Headstrong
+Track: 02
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=cd736a54-69d4-3a77-b6cb-dfb508d39499
+Artist: Jessica
+Title: Unstoppable tears
+Album: OST Romance Town
+Track: 00
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=15a21b0d-3511-3c38-a4fe-9a11f820ca14
+Artist: So Nyuh Shi Dae
+Title: Day by Day
+Album: Oh!
+Track: 10
+Genre: ´í½º
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0f256e67-38f4-3803-b4d0-fe16619cd8c3
+Artist: Tae Yeon
+AlbumArtist: Tae Yeon
+Title: If
+Album: OST Hong gi dong
+Track: 1412
+Genre: (13)Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=7100c4d4-7a59-3f72-bee3-880fa15ca598
+Artist: So Nyuh Shi Dae
+Title: Star Star Star
+Album: Oh!
+Track: 08
+Genre: ¹ß¶óµå
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=5171fecc-057d-3249-af25-2b4e8e451d10
+Artist: So Nyuh Shi Dae
+Title: Forever
+Album: Oh!
+Track: 04
+Genre: ¹ß¶óµå
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=bf9c407e-cdf8-33f1-903f-c8e153115d56
+Artist: Tae Yeon
+AlbumArtist: 태연 [소녀시대]
+Title: Bye
+Album: OST Mr.Go
+Track: 01
+Genre: 팝 > 발라드 (Ballad), OST  > > 영화
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=c669f50b-6331-310b-9e40-8dfa17b179cc
+Artist: So Nyuh Shi Dae
+Title: Caramel Coffee (Talk To Me)
+Album: Run Devil Run
+Track: 10
+Genre: (3)Dance
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=df2bde83-d776-3b63-b8f6-575c44e2c752
+Artist: So Nyuh Shi Dae
+Title: Star Star Star (Acoustic RnB ver.)
+Album: Run Devil Run
+Track: 04
+Genre: (3)Dance
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=2c41947e-e318-385c-8e32-cbad2f668ba9
+Artist: Ashley Tisdale
+Title: What If
+Album: Guilty Pleasure
+Track: 08
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=d3829058-de9f-3408-b046-7d716232a986
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Snowy Wish
+Album: Hoot
+Track: 05
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=61bdac69-967b-3bcb-b8d5-45da8407a6d2
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 비타민 (VITAMIN)
+Album: The Boys (3rd Album)
+Track: 11
+Genre: 댄스 팝 (Dance Pop), 발라드 (Ballad)
+Disc: 03
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=92782ce4-ff05-3167-bf5d-01b49e73ec4d
+Artist: Ashley Tisdale
+Title: Erase & Rewind
+Album: Guilty Pleasure
+Track: 09
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=22507bc7-7e1b-3d8b-b117-567cd794a04d
+Artist: Tae Yeon
+Title: Closer  [To The Beautiful You OST]
+Album: OST To the beautiful you
+Track: 01
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f8a90a18-faa1-3a62-9f33-9eeeb1c63831
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Merry-go-round
+Album: Girls' Generation
+Track: 06
+Genre: (13)Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=248642e8-537f-3f47-886d-97fed8b45658
+Artist: Tae Yeon
+AlbumArtist: S.M. THE BALLAD
+Title: Set Me Free (Sung by 태연 (소녀시대))
+Album: S.M. THE BALLAD Vol.2  Breath  Set Me Free
+Track: 01
+Genre: (116)Ballad
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=9569f629-a7e3-39be-b89f-b6fa11381b6f
+Artist: Tae Yeon
+AlbumArtist: 태연 (Taeyeon)
+Title: 사랑 그 한마디
+Album: 너희들은 포위됐다 OST Part.2
+Track: 01
+Genre: OST
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=24d78046-3a52-38f7-8db6-d2a02f02cf2d
+Artist: So Nyuh Shi Dae
+Title: 1년 後 (One Year Later)
+Album: Genie
+Track: 06
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=b1e1dfd1-43a1-3e65-8ad1-634014e96898
+Artist: Tiffany/K.Will
+AlbumArtist: K-Will ft Tiffany
+Title: A Girl Meets Love
+Album: 눈물이 뚝뚝 (EP)
+Track: 04
+Genre: K-Pop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=c60eb246-e549-3991-9cde-c3a6eeec1616
+Artist: Tiffany
+Title: Ring
+Album: OST Haru
+Track: 00
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=89662d6d-db8f-3ce7-90fd-12e52f914891
+Artist: Tiffany
+Title: By Myself
+Album: OST Ja Myung Go
+Track: 00
+Genre: Unknown
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=8e6685cc-0c9c-37c0-a354-f9a790ff103e
+Artist: Tiffany
+AlbumArtist: Tiffany
+Title: Because It's You
+Album: OST Love Rain
+Track: 01
+Genre: OST>>>TV Drama
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=3d472055-7c0b-3632-ad69-96cfa3f7938a
+Artist: Tiffany
+AlbumArtist: 티파니 [소녀시대]
+Title: One Step
+Album: OST All About My Romance - Part.2
+Track: 01
+Genre: 팝 > 발라드 (Ballad), OST  > > TV 드라마
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=8382b7a9-63f6-35e2-9354-4b0e01b8e3c5
+Artist: TaeYeon/Sunny
+Title: Sarang In Gul Yo
+Album: OST Heading To The Ground
+Track: 00
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=09c65700-10cc-3581-a73d-79070b4161f6
+Artist: Jessica/Tiffany/SeoHyun
+Title: It's Fantastic
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=97a76f1c-d4dd-3a41-bfb1-38144c9fd759
+Artist: Yuri/Soo Young
+Title: Kkok
+Album: OST Working Mom
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0289c41a-e6d4-3785-87a3-649fe755f8f4
+Artist: SeoHyun
+Title: It's Okey Even If It Hurts
+Album: OST Kim Soo Ro
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=59c83dc8-9bcd-3e88-add2-b84432cfed56
+Artist: Jessica/Tiffany/SeoHyun
+Title: Oppa Nappa
+Album: Roomate
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=5b4627d1-bb4f-3055-a3bc-8f55723c1368
+Artist: Jes,Seo,Sun,Tae,Tif
+Title: Motion
+Album: OST Heading To The Ground
+Track: 00
+Genre: (12)Other
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=15734a0a-32bf-37f2-b161-a76c2d668d75
+Artist: 소녀시대
+Title: TOUCH THE SKY (Original Ver.)
+Album: OST 아들 찾아 삼만리
+Track: 01
+Genre: Kpop
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=3b252ccc-4ff3-3b19-84af-38b60b3129ab
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 텔레파시 (Telepathy)
+Album: The Boys (3rd Album)
+Track: 02
+Genre: 댄스 팝 (Dance Pop), 발라드 (Ballad)
+Disc: 03
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1f811f0f-54bd-316a-bd04-e1d58d3dbe74
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Say yes
+Album: The Boys (3rd Album)
+Track: 03
+Genre: 댄스 팝 (Dance Pop), 발라드 (Ballad)
+Disc: 03
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=cb06fa0c-fe86-3f36-90fd-4484a058edb3
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: TRICK
+Album: The Boys (3rd Album)
+Track: 04
+Genre: 댄스 팝 (Dance Pop), 발라드 (Ballad)
+Disc: 03
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=a543874b-5977-30f3-a635-93ee9abc4bc6
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 봄날 (How great is your love)
+Album: The Boys (3rd Album)
+Track: 05
+Genre: 댄스 팝 (Dance Pop), 발라드 (Ballad)
+Disc: 03
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=8cf73c87-d496-36e0-9bdc-2d3a622611bb
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: 제자리걸음 (Sunflower)
+Album: The Boys (3rd Album)
+Track: 10
+Genre: 댄스 팝 (Dance Pop), 발라드 (Ballad)
+Disc: 03
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=6505d0e1-c2b2-35b6-b00c-00a468562d4e
+Artist: So Nyuh Shi Dae
+AlbumArtist: SM TOWN
+Title: Diamond
+Album: The Warmest Gift (2011 SM Town Winter)
+Track: 05
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=99f457c7-da0f-32f2-9eeb-b2acebc7fae7
+Artist: Sunny
+Title: You Don't Know About Love
+Album: OST Working Mom
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=972af449-dd37-30e2-9f75-1df710436d59
+Artist: So Nyuh Shi Dae
+Title: Time Machine
+Track: 00
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=d4cdee91-8e10-3179-b84d-d87c2d121e29
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Twinkle
+Album: Twinkle
+Track: 01
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=69b67395-8b2e-3382-a71b-dc58dfc24c3b
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Baby Step
+Album: Twinkle
+Track: 02
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=a0a44bc2-9be6-38a8-8b68-43fcbca8317f
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Library
+Album: Twinkle
+Track: 04
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=5c2c4059-b61d-3a2d-a18e-3a508659a0a1
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Goodbye, Hello
+Album: Twinkle
+Track: 05
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f9f3bbec-987e-3636-95f9-8c4f2ec6508b
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Love Sick
+Album: Twinkle
+Track: 06
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=bf353883-d7a2-3f2b-ab22-9126a0b413f6
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Message from TTS
+Album: Twinkle
+Track: 08
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=cb254a04-deaa-3642-ab93-90fb654ee49d
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: 내가 네게 (Whisper)
+Album: Holler
+Track: 03
+Genre: (116)Ballad
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=b7052c9e-4e00-336b-bc27-bbf6fcb235c6
+Artist: So Nyuh Shi Dae
+AlbumArtist: TTS
+Title: Only U
+Album: Holler
+Track: 05
+Genre: (116)Ballad
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=9e14e8b0-e8b7-3eee-91cf-f41abb85c1ce
+Artist: So Nyuh Shi Dae
+Title: All My Love Is For You
+Album: All My Love Is For You
+Track: 01
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f7342a4b-9039-339f-9882-d3a9602c2bc7
+Artist: So Nyuh Shi Dae
+AlbumArtist: 少女時代
+Title: FLOWER POWER
+Album: GIRLS' GENERATION II ～Girls & Peace～
+Track: 01
+Genre: J-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=22f9b186-4d65-34d4-9173-252632de8b4c
+Artist: So Nyuh Shi Dae
+AlbumArtist: 少女時代
+Title: Reflection
+Album: GIRLS' GENERATION II ～Girls & Peace～
+Track: 04
+Genre: J-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=548e5540-ee75-36fc-a05e-650063b38701
+Artist: So Nyuh Shi Dae
+AlbumArtist: 少女時代
+Title: Stay Girls
+Album: GIRLS' GENERATION II ～Girls & Peace～
+Track: 05
+Genre: J-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=e0136a75-4c5d-39a0-92cc-6d11bc7e347a
+Artist: So Nyuh Shi Dae
+AlbumArtist: 少女時代
+Title: T.O.P
+Album: GIRLS' GENERATION II ～Girls & Peace～
+Track: 06
+Genre: J-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=28e21422-f38c-30a0-9d96-311500ca891a
+Artist: So Nyuh Shi Dae
+AlbumArtist: 少女時代
+Title: ALL MY LOVE IS FOR YOU
+Album: GIRLS' GENERATION II ～Girls & Peace～
+Track: 09
+Genre: J-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=277ab303-86fd-3f86-ab83-3b76f5f9d86c
+Artist: So Nyuh Shi Dae
+AlbumArtist: 少女時代
+Title: PAPARAZZI
+Album: GIRLS' GENERATION II ～Girls & Peace～
+Track: 10
+Genre: J-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f28bba59-e821-34ac-ac5c-0f30eab32ea8
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Baby Maybe
+Album: I GOT A BOY
+Track: 03
+Genre: K-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=c3028b34-8111-3042-8ae0-761045f9a8e5
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Promise
+Album: I GOT A BOY
+Track: 05
+Genre: K-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=862ef223-7c76-3328-be23-13d3d69a0339
+Artist: So Nyuh Shi Dae
+AlbumArtist: So Nyuh Shi Dae
+Title: Express 999
+Album: I GOT A BOY
+Track: 06
+Genre: K-Pop
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=60e789c6-0b39-30b9-8790-d69c0de5063c
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=b0811595-5fd6-3a48-bbcf-49bc49de1402
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=03a2289e-e9f8-3ecf-baaa-ee9de013955f
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1a7483b9-64f2-323a-abd8-00f0c30f7c04
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=467bc0f6-3c2c-3980-9df9-e007af8be265
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=525befc5-4f77-394e-b369-fe594840b5c1
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=609bfb52-d2ae-3087-baaf-c92234bd5e7f
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=75ed38ef-9f45-3b0f-88c2-110d84918834
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=3254fc12-579e-38f2-85bd-906e63658869
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=d1dcdfa6-1982-3dee-a936-360e85afbcd8
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1e91804b-72e0-355e-bca9-3e3a900fa7b7
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=e00da07c-fd12-3502-98d6-daaa55951ef4
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=78bace18-f4e2-35b8-9ff4-53d1e441a61b
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=6e68a041-e419-3f97-a9ad-1738aeb778ca
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=4a68523f-d133-3933-bd33-fca958b69615
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=7a4a4d56-cee3-34e3-a3ae-bf4c434e6899
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=91c2b5f0-a77d-34e4-b0cd-713b6c1493ad
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=3ee3a2e2-59ff-33dd-8b4f-a3e202b5b0db
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=45c5e6aa-4f55-3f38-88f5-41e798674607
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=8ff6b6cf-381b-31bf-8af0-9ac2dbc37c35
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1e868269-40a3-3492-9926-c75e940b0a19
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=6493a77d-efae-3b52-87f0-982f31344961
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=f2803f91-e8d0-359c-ac36-2a0b839864c6
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1b659eb4-2dec-3257-b972-b936164e179c
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=24a84e45-c266-31ae-847e-72495513cccb
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=96473401-240c-3ed9-a050-aee3f2b22376
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=898c25f2-23a6-3c17-98cd-54454ca23e77
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=080de3f5-0de4-35c6-a1a4-abc2e9b6a102
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=a445ec0b-1b7f-3aab-822d-c953ff387364
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=5b46e5d9-c700-3dc8-9477-32a311687e2a
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=92d40f6f-757c-30db-893f-2cad1e20b73e
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=5a6b6aca-9384-38b6-b4f4-478c2f7ef737
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=99877b17-b2ee-36af-929f-06724ba17be1
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0b64064e-6bbe-320b-9597-691fe82040b2
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=bb3a9346-5c5b-3d51-be6a-2dee8afdaf20
+Artist: Mina
+Title: Misaki Meguri
+Album: Sora no Otoshimono Ending Theme Collection
+Track: 01
+Genre: (145)Anime
+Disc: 00
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=1f4f4cf1-231b-3218-b783-ca7fb6e1a6b3
+Artist: Ogiso Setsuna
+Title: Todokanai Koi Live at Campus Fes
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 01
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=4ae9dadb-72ee-3f0d-a276-3ac01cb4c275
+Artist: Ogiso Setsuna
+Title: WHITE ALBUM Live at Campus Fes
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 02
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=105f4b21-fad8-31a4-bc09-4b585be6f16f
+Artist: Ogiso Setsuna
+Title: Feeling Heart
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 03
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=5da711a3-a9f5-3759-952f-9a77da10c90f
+Artist: Ogiso Setsuna
+Title: Musou Uta
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 04
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=abbf6019-1f0c-3be7-b40f-b0b6d0ddbbb5
+Artist: Ogiso Setsuna
+Title: Routes
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 05
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=e0f2a77a-b57e-328d-8ef2-dee61b6e9b21
+Artist: Ogiso Setsuna
+Title: Anita wo Omoitai
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 06
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=cad256d6-d47e-3018-8029-79e82d9269a8
+Artist: Ogiso Setsuna
+Title: POWDER SNOW (hikigatari)
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 08
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=33094b37-4013-35b7-b7d1-2dd1bd020360
+Artist: Ogiso Setsuna
+Title: Mai Ochiru Yuki no Youni
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 07
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=fd476133-7f80-3aca-a773-069771ba4b79
+Artist: Ogiso Setsuna
+Title: SOUND OF DESTINY Live at Campus Fes
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 10
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=48ad1108-f906-352b-8f4a-aa8901fdc946
+Artist: Ogiso Setsuna
+Title: Hitori
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 09
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=fb8cbdeb-edce-3d4a-aef9-18669cff23ed
+Artist: Ogiso Setsuna
+Title: Kimi wo Nosete
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 11
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=746ec278-8560-31d7-8b90-028b49a9a0ea
+Artist: Ogiso Setsuna
+Title: Fuke Ai
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 13
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=07b33b7a-bb91-3d0e-92e5-5fb101b8c348
+Artist: Ogiso Setsuna
+Title: I hope so...
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 12
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=0ec100e1-e4be-3e00-877b-af596c87ac72
+Artist: Ogiso Setsuna
+Title: Todokanai Koi Valentine Live
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 14
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+song_begin: http://192.168.1.103:9999/get_song?id=296a0572-6f3e-3e00-9ce2-bd004a096236
+Artist: Ogiso Setsuna
+Title: Toki no Mahou (acoustic version)
+Album: WHITE ALBUM2 ORIGINAL SOUNDTRACK ～setsuna～
+Track: 15
+Genre: (28)Vocal
+Disc: 01
+mtime: 0
+song_end
+172:So Nyuh Shi Dae/Tiffany/Only One - Tiffany [MP3 320kbps].mp3
+173:So Nyuh Shi Dae/Tae Yeon/I - The 1st Mini Album/01 I (feat. Verbal Jint).m4a
+174:So Nyuh Shi Dae/Tae Yeon/I - The 1st Mini Album/02 U R.m4a
+175:So Nyuh Shi Dae/Tae Yeon/I - The 1st Mini Album/03 쌍둥이자리 Gemini.m4a
+176:So Nyuh Shi Dae/Tae Yeon/I - The 1st Mini Album/05 먼저 말해줘 Farewell.m4a
+177:kami nomi OST/The World God Only Knows S3 ED [Single]/01. キズナノユクエ.mp3
+178:kami nomi OST/The World God Only Knows S3 ED [Single]/03. キズナノユクエ feat. 中川かのん.mp3
+179:kami nomi OST/The World God Only Knows S3 ED [Single]/06. キズナノユクエ feat. 五位堂結.mp3
+180:kami nomi OST/The World God Only Knows S3 ED [Single]/08. キズナノユクエ (TV Edit).mp3
+181:WA/White Album Character Song & Soundtrack/06 - POWDER SNOW (Live Ver.).mp3
+182:WA/White Album Character Song & Soundtrack/08 - POWDER SNOW (YUKI & RINA Ver.).mp3
+183:WA/White Album Character Song 1 - Morikawa Yuki/01 - WHITE ALBUM.mp3
+184:WA/White Album OP Single - Shin Ai/01 - Shin Ai.mp3
+185:WA2/White Album 2 Vocal Collection/05 - Twinkle Snow '13.mp3
+186:WA2/White Album 2 Vocal Collection/11 - Sayonara no Koto.mp3
+playlist_end

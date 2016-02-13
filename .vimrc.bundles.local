@@ -1,2 +1,3 @@
 "Bundle 'gilligan/vim-lldb'
 Plugin 'crucerucalin/qml.vim'
+"Plugin 'rking/ag.vim'

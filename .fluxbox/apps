@@ -1,0 +1,16 @@
+[app] (name=Navigator)
+  [Deco]	{NONE}
+[end]
+[app] (name=.*[tT]erm)
+  [Deco]	{NONE}
+[end]
+[app] (class=st.*)
+  [Deco]	{NONE}
+[end]
+[app] (name=vaapi) (class=MPlayer)
+[end]
+[app] (name=remote-viewer)
+  [Deco]	{NONE}
+[end]
+[app] (name=VirtualBox) (class=VirtualBox)
+[end]

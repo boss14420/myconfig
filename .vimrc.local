@@ -233,3 +233,11 @@ au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:U
 au! BufWritePost *.hs
 
 UnBundle 'jiangmiao/auto-pairs'
+UnBundle 'Lokaltog/powerline'
+
+if &term =~ '256color'
+    " disable Backgroud Color Erase (BCE) so that color schemes
+    " render properly when inside 256-color tmux and GNU screen.
+    " see also http://sunaku.github.io/vim-256color-bce.html
+    set t_ut=
+endif

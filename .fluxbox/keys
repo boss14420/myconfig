@@ -394,7 +394,7 @@ Mod4 KP_3 :Exec (date +'Today: %A %b %d';echo;cal -y)| gmessage --file - -button
 Mod4 KP_5 :Exec osdctl -s "$(date +'%A %d %b %H:%M,')"
 
 # open a terminal
-Mod1 F1 :Exec xterm
+Mod1 F1 :Exec st
 
 # open a dialog to run programs
 Mod1 F2 :Exec fbrun

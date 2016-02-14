@@ -14,6 +14,7 @@ function my_git_info() {
 }
 
 BULLETTRAIN_GIT_PROMPT_CMD="\$(my_git_info)"
+BULLETTRAIN_EXEC_TIME_SHOW=true
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

@@ -8,6 +8,13 @@ ZSH=/usr/share/oh-my-zsh/
 ZSH_THEME="bullet-train"
 DEFAULT_USER="boss14420"
 
+function my_git_info() {
+    local vcs_info=$(echo $vcs_info_msg_0_ | sed -re 's/.*\[(.*)\].*/\1/')
+    echo "$ZSH_THEME_GIT_PROMPT_PREFIX$vcs_info$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX"
+}
+
+BULLETTRAIN_GIT_PROMPT_CMD="\$(my_git_info)"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 

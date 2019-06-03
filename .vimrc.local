@@ -233,7 +233,7 @@ au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:U
 au! BufWritePost *.hs
 
 UnBundle 'jiangmiao/auto-pairs'
-UnBundle 'Lokaltog/powerline'
+"UnBundle 'Lokaltog/powerline'
 
 if &term =~ '256color'
     " disable Backgroud Color Erase (BCE) so that color schemes

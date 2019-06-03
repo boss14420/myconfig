@@ -7,6 +7,10 @@ autoload -U promptinit
 promptinit
 prompt clint
 
+[ ! "$UID" = "0" ] && archey3 -c cyan
+[ "$UID" = "0" ] && archey3 -c red
+
+
 # modified commands
 alias diff='colordiff'              # requires colordiff package
 export GREP_COLOR="1;33"
@@ -132,4 +136,4 @@ export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 #source /usr/share/zsh/site-contrib/powerline.zsh
 
 # Pkgfile
-source /usr/share/doc/pkgfile/command-not-found.zsh
+#source /usr/share/doc/pkgfile/command-not-found.zsh

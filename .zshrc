@@ -117,9 +117,6 @@ unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
-[ ! "$UID" = "0" ] && archey -c cyan
-[  "$UID" = "0" ] && archey -c red
-
 [ "$DISPLAY" = ":0.0" ] && alias fluxbox-reload="kill -SIGHUP `xprop -root _BLACKBOX_PID | awk '{print $3}'`"
 
 # pulseaudio --start &> /dev/null &

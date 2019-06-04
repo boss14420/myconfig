@@ -131,3 +131,8 @@ fi
 
 # tmux
 alias tmux="TERM=screen-256color-bce tmux"
+
+# ibus
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
